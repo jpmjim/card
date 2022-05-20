@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  width: 350px;
+  height: 500px;
+  background-color: black ;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  height: 350px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -20vh;
+}
+
+.name img {
+  border-radius: 20%;
+  border: 7px black  solid;
+  width: 160px;
+  height: 160px;
+}
+.name p {
+  color: white;
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.name h1 {
+  text-align: center;
+  color: white;
+  font-size: 2.2rem
+}
+
+.redes {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 2.6rem;
+}
+
+.redes i:hover {
+  color: tomato;
+}
+
+.name button {
+  background-color: tomato;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  border-style: hidden;
+}
